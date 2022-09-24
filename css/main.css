@@ -1,0 +1,364 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background: #000;
+}
+#body {
+    background-color: #000;
+}
+/********************************/
+.main-h2 {
+    padding: 20px 30px 20px 0px;
+    width: 250px;
+    color: #fff;
+    text-align: left;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    border-bottom: 1px solid #8f8f8f;
+}
+.section {
+    position: relative;
+    margin: 0 300px 0 350px;
+}
+/********************************/
+
+/* Nav */
+.nav {
+    position: fixed;
+    width: 9rem;
+    background-color: #222222;
+    height: 100%;
+}
+.nav img {
+    height: 10.05rem;
+    cursor: pointer;
+}
+.nav ul {
+    list-style: none;
+    position: relative;
+    top: -20px;
+    left: -32px;
+    text-align: center;
+}
+.nav ul li {
+    padding-top: 40px;
+    padding-bottom: 40px;
+    padding-left: 33px;
+    padding-right: 33px;
+    transition: all 0.4s;
+}
+.nav ul li a {
+    color: #fff;
+    font-size: 3.2rem;
+    padding: 10px;
+}
+.nav ul li:hover {
+    color: rgba(255, 255, 255, 0.85);
+    background-color: #000;
+    cursor: pointer;
+}
+
+/* Hero */
+.hero {
+    background-color: #000;
+}
+.hero h1 {
+    text-align: center;
+    color: #fff;
+    padding: 30px 0 20px 0;
+    font-size: 3.5rem;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+}
+.hero h3 {
+    text-align: center;
+    color: #fff;
+    font-size: 1rem;
+    font-weight: 100;
+}
+.hero img {
+    height: 70%;
+    width: 50vw;
+    padding: 80px;
+    position: relative;
+    left: 250px;
+    top: -80px;
+}
+
+/* About */
+.about {
+    top: -120px;
+}
+.about .text {
+    text-align: justify;
+}
+.about .text p {
+    padding-top: 12px;
+    color: #8f8f8f;
+}
+.about .skils h3 {
+    padding: 25px 0 20px 0;
+    color: #fff;
+    text-align: left;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    font-size: 1.7rem;
+}
+.about .skils h4 {
+    padding: 15px 0 10px 0;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.05rem;
+    letter-spacing: 4px;
+    color: #8f8f8f;
+    font-weight: 600;
+}
+.about .skils .line {
+    width: 100%;
+    height: 25px;
+    background-color: #fff;
+    cursor: pointer;
+}
+.about .skils .line #div1 {
+    width: 95%;
+    height: 25px;
+    background-color: #616161;
+}
+.about .skils .line #div2 {
+    width: 83%;
+    height: 25px;
+    background-color: #616161;
+}
+.about .skils .line #div3 {
+    width: 78%;
+    height: 25px;
+    background-color: #616161;
+}
+.about .skils .podaci {
+    margin: 40px 0;
+    background-color: #fff;
+    width: 100%;
+    height: 120px;
+    cursor: pointer;
+}
+.about .skils .podaci ul {
+    list-style: none;
+    width: 100%;
+}
+.about .skils .podaci ul li {
+    display: inline-block;
+    padding: 35px 66px 30px 66px;
+    text-align: center;
+    font-weight: bold;
+    cursor: pointer;
+}
+.about .skils .podaci ul li p {
+    text-align: center;
+    color: #000;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    font-size: 1.3rem;
+}
+.about .skils .podaci ul li p span {
+    color: #8f8f8f;
+    font-size: 0.9rem;
+    font-weight: bolder;
+    position: relative;
+    top: -5px;
+}
+.about .skils button {
+    background-color: #fff;
+    padding: 10px 20px;
+    transition: all 0.3s;
+}
+.about .skils button a {
+    text-decoration: none;
+    color: #000;
+    font-weight: 600;
+    font-size: 0.9rem;
+    transition: all 0.3s;
+}
+.about .skils button i {
+    padding: 0 3px 0 0;
+}
+.about .skils button:hover {
+    background-color: rgba(255, 255, 255, 0.60);
+}
+.about .price h3 {
+    padding: 60px 0 20px 0;
+    color: #fff;
+    text-align: left;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    font-size: 1.7rem;
+}
+.about .price .item {
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+.about .price .item:hover {
+    -webkit-box-shadow: 0px 0px 30px 15px rgba(77,77,77,1);
+    -moz-box-shadow: 0px 0px 30px 15px rgba(77,77,77,1);
+    box-shadow: 0px 0px 30px 15px rgba(77,77,77,1);
+}
+.about .price .item h4 {
+    padding: 30px;
+    background-color: #3a3a3a;
+    color: #999999;
+    font-weight: 900;
+    margin-bottom: 0;
+}
+.about .price .item .txt {
+    background-color: #999999;
+}
+.about .price .item .txt h5 {
+    padding: 15px;
+    font-size: 0.95rem;
+    color: #000;
+    font-weight: 600;
+    border-bottom: 1px solid #848484;
+    margin-bottom: 0;
+}
+.about .price .item .txt h5 span {
+    display: block;
+    color: #000;
+    font-size: 2rem;
+}
+.about .price .item .btn {
+    background-color: #909090;
+    width: 100%;
+    height: 100%;
+    border-radius: 0;
+    border: 1px solid #909090;
+    padding: 20px;
+}
+.about .price .item .btn button {
+    background-color: #999999;
+    color: #000;
+    font-weight: 600;
+    padding: 10px 20px;
+    border: 1px solid #999999;
+    transition: all 0.3s;
+}
+.about .price .item .btn button:hover {
+    background-color: rgba(255, 255, 255, 0.8);
+}
+.about .reputation h3 {
+    padding: 60px 0 20px 0;
+    color: #fff;
+    text-align: left;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    font-size: 1.7rem;
+}
+.about .reputation .item {
+    padding: 5px 0 15px 0;
+}
+.about .reputation .item img {
+    height: 80px;
+    border-radius: 50%;
+}
+.about .reputation .item .txt {
+    display: inline-block;
+    padding: 10px;
+    position: relative;
+    top: 15px;
+}
+.about .reputation .item .txt h5 {
+    padding: 5px 0 0 10px;
+    color: #8f8f8f;
+    font-size: 1rem;
+    font-weight: 400;
+}
+.about .reputation .item .txt .txt1 h5 {
+    display: inline;
+    padding: 10px;
+    color: #8f8f8f;
+}
+
+/* Photo */
+.photos {
+    margin-bottom: 80px;
+}
+.photos h2 {
+    margin-bottom: 0;
+}
+.photos .photo img {
+    width: 100%;
+    padding-top: 20px;
+}
+
+/* Contact */
+.contact {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.contact .item {
+    padding: 0 0 30px 0;
+}
+.contact .item a {
+    display: block;
+    text-decoration: none;
+    color: #8f8f8f;
+    font-size: 1.1rem;
+    padding: 20px 0 10px 0;
+}
+.contact .item i {
+    color: #fff;
+    font-size: 2rem;
+    padding-right: 20px;
+}
+.contact .form {
+    padding: 10px 0;
+}
+.contact .form form label {
+    font-size: 1rem;
+    color: #8f8f8f;
+}
+.contact .form form input {
+    display: block;
+    width: 100%;
+    border: 1px solid #fff;
+    margin: 15px 0;
+    padding: 15px 10px;
+    color: #8f8f8f;
+    font-size: 1.1rem;
+}
+.contact .form form button {
+    background-color: #fff;
+    padding: 10px 20px;
+    transition: all 0.3s;
+}
+.contact .form form button a {
+    text-decoration: none;
+    color: #000;
+    font-weight: 600;
+    font-size: 0.9rem;
+    transition: all 0.3s;
+}
+.contact .form form button i {
+    padding: 0 3px 0 0;
+}
+.contact .form form button:hover {
+    background-color: rgba(255, 255, 255, 0.60);
+}
+
+/* Footer */
+footer {
+    padding-bottom: 20px;
+    margin: 20px 0;
+}
+footer a {
+    color: #8f8f8f;
+    font-size: 1.5rem;
+    text-decoration: none;
+    padding: 0 5px;
+    transition: all 0.3s;
+}
+footer a:hover {
+    color: #8f8f8fb4;
+}
